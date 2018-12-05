@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-family: cursive;
+    background: url(img/bg.jpg)
+}
+
+#header {
+    width: auto;
+    height: 60px;
+}
+
+#header #logo a {
+    font-size: 40px;
+    text-decoration: none;
+    float: left;
+    width: auto;
+}
+
+#header #menu {
+    float: right;
+    width: 70%;
+}
+#header #menu ul {
+    list-style: none;
+    height: 30px;
+}
+
+#header #menu li {
+    display: inline;
+    margin-left: 60px;
+}
+
+#header #menu li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+#header #menu li a#sign-in {
+    background-color: #FF7300;
+    border: 1px solid #FF7300;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+a {
+    color: black;
+}
+a:hover {
+    color: white;
+}
+
+#container {
+    margin-top: 20px;
+    width: auto;
+    height: 900px;
+    font-size: 16px;
+}
+
+#container #menu-left {
+    width: 14%;
+    height: 600px;
+    float: left;
+}
+#container #menu-left ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+#container #menu-left li {
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+#container #menu-left li a {
+    text-decoration: none;
+}
+
+#container #content {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 30px;
+    float: right;
+    width: 83%;
+    height: auto;
+}
+
+#container #content .box {
+    width: 200px;
+    height: 235px;
+    background: white;
+    border-radius: 15px;
+    position: relative;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+#container #content .box .title p {
+    margin-top: 9px;
+    padding-left: 10px;
+}
+
+.box .image img {
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#container #content .box .text {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    background: rgba(192,192,192,0.4);
+    color: white;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    height: auto;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: none;
+}
+
+#container #content .box:hover .text {
+    display: block;
+}
+
+#footer #copy {
+    float: left;
+    width: auto;
+}
+
+#footer #footer-menu ul {
+    list-style: none;
+    float: left;
+    width: auto;
+}
+
+#footer #footer-menu li {
+    display: inline;
+    margin-left: 30px;
+}
